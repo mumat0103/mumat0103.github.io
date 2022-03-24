@@ -1,26 +1,110 @@
-@font-face {
-    font-family: 'S-CoreDream-4Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recipekorea';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IBMPlexSansKR-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 body {
-    font-family: 'IBMPlexSansKR-Regular';
-    background-color: rgb(15, 77, 15);
+    background-color: #010b24;
+}
+
+.music {
+    display: inline-block;
+    
+    width: 300px;
+    height: 25px;
+}
+
+.frame {
+    display: flex;
+    margin: 30px 120px;
+    flex-direction: column;
+    background-color:#010b24;
+    border: 5px solid #4a65c0
+}
+
+.navigator {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.nav_menu {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 15px;
+}
+.nav_menu:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: -2px 0 #4a65c0, 0 2px #4a65c0, 2px 0 #4a65c0, 0 -2px #4a65c0;
+}
+.site-name {
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: -2px 0 #4a65c0, 0 2px #4a65c0, 2px 0 #4a65c0, 0 -2px #4a65c0;
+    margin-left: 15px;
+}
+.info {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.comment {
+    
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: aliceblue;
+    
+}
+.profile {
+    margin-top: 100px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.myname {
+    font-family: 'Jua', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+.introduce{
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.star {
+    margin-top: 30px;
+    width: flex;
+    height: flex;
+}
+.image-dis {
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    border-top: #818181 solid 1px;
+    align-items: center;
+}
+.links {
+    color: #ffffff;
+}
+i {
+    padding: 10px;
+}
+
+#contact {
+    color: white;
 }
